@@ -1,0 +1,57 @@
+body {
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-header a {
+  color: #000;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.main-menu, .customer-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-header .logo {
+  width: 60px;
+  height: 60px;
+  background: url(logo.svg) no-repeat center center;
+  background-size: 100%;
+}
+
+.main-header .logo a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+}
+
+.main-header li {
+  line-height: 60px;
+}
+
+.store {}
+
+.toolbar {
+  background-color: #f8f8f8;
+  padding: 25px;
+}
+
+.toolbar form {
+  text-align: center;
+}
+
+.toolbar form input {
+  padding: 11.5px;
+}
