@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
 body {
   color: #000;
   background-color: #fff;
   font-size: 14px;
   margin: 0;
+  font-family: 'Open Sans'
 }
 
 .main-header {
