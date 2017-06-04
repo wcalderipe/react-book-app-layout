@@ -109,9 +109,13 @@ body {
 
 .books-list .book {
   display: inline-block;
-  max-width: 14.75%;
-  margin-left: 2.25%;
-  margin-bottom: 2.25%;
+  max-width: 14%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.books-list .book:nth-child(6n+1) {
+  margin-left: 0;
 }
 
 .books-list .book .cover {
