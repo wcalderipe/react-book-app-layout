@@ -17,18 +17,12 @@ body {
   text-decoration: none;
 }
 
-.main-menu, .customer-menu {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .main-header .logo {
   width: 60px;
   height: 60px;
   background: url(logo.svg) no-repeat center center;
   background-size: 100%;
+  margin-right: 10px;
 }
 
 .main-header .logo a {
@@ -39,6 +33,17 @@ body {
 
 .main-header li {
   line-height: 60px;
+}
+
+.main-menu, .customer-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-menu li {
+  display: inline-block;
 }
 
 .store {}
