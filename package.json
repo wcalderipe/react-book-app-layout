@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch-less": "watch-less --extension .css"
+    "less:watch": "watch-less --extension .css",
+    "less:compile": "lessc styles.less styles.css"
   },
   "repository": {
     "type": "git",
