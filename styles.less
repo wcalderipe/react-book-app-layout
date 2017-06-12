@@ -147,6 +147,34 @@ body {
   }
 }
 
+.pagination {
+  text-align: center;
+
+  ul {
+    padding: 0;
+    display: inline-block;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    background-color: #efefef;
+
+    li {
+      display: inline-block;
+      padding: 10px 20px;
+      cursor: pointer;
+
+      &:first-child {
+        border-right: 1px solid #dedede;
+      }
+
+      &.disabled {
+        cursor: default;
+        color: #dedede;
+        background-color: #efefef;
+      }
+    }
+  }
+}
+
 .main-footer {
   background-color: #222;
   color: #efefef;
