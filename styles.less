@@ -64,8 +64,13 @@ body {
 }
 
 
-.store .container {
+.container {
   max-width: 70%;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -248,6 +253,38 @@ body {
 
     .cart-actions {
       margin-top: 1.2em;
+    }
+  }
+}
+
+
+.book-about {
+  background-color: #efefef;
+  color: #000;
+  padding: 3em 0;
+
+  .title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: .05em;
+  } 
+
+  .content {
+    font-family: serif;
+    box-sizing: border-box;
+
+    p {
+      font-size: 1.4em;
+      line-height: 1.5em;
+      margin: 0 0 1.5em;
+
+      &:last-child {
+	margin-bottom: 0;
+      }
     }
   }
 }
