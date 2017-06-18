@@ -21,7 +21,7 @@ body {
 .main-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.5em;
 
   a {
     color: #000;
@@ -210,11 +210,13 @@ body {
   }
 
   .cover {
+    padding-left: 1.5em;
+
     img {
       border: 1px solid #8b8b8b;
       background-color: #fff;
       display: block;
-      width: auto;
+      max-width: 100%;
     }
 
     .published-date {
@@ -228,6 +230,8 @@ body {
   }
 
   .purchase {
+    padding-left: 1.5em;
+
     .pricing {
       p {
 	margin: 0;
@@ -299,6 +303,11 @@ body {
   font-size: 1.5em;
   padding: .5em .7em;
   border-radius: .2em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #008be6;
+  }
 }
 
 
